@@ -1,4 +1,5 @@
-body {
-  background: blue;
+.navbar {
+  border-bottom: 3px solid #1d7fff;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 /*# sourceMappingURL=style.css.map */
