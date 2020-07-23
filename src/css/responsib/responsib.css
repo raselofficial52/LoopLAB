@@ -1,6 +1,9 @@
 @media (max-width: 767px) {
   .home_inner h1 {
-    font-size: 20px;
+    font-size: 3rem;
+  }
+  #explore_head_section h2 {
+    font-size: 3rem;
   }
 }
 /*# sourceMappingURL=responsib.css.map */

@@ -4,7 +4,9 @@ $nav_bg_color:rgba(0, 0, 0, 0.5);
 $primary_color:#007BFF;
 $icon_font_size:30px;
 html{
-   scroll-behavior:smooth;
+  -webkit-scroll-behavior:smooth;
+  -moz-scroll-behavior:smooth;
+  scroll-behavior:smooth;
 }
 body {
     background: $body_bg;
@@ -47,5 +49,16 @@ body {
        padding-top:150px;
        padding-bottom:150px;
        
+    }
+}
+
+// Explore main Section
+#explore_main_section{
+    .fa{
+        background:rgb(0, 0, 0);
+        color:$font_color;
+        font-size:$icon_font_size;
+        padding:5px;
+        border-radius:5px;
     }
 }

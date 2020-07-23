@@ -1,4 +1,6 @@
 html {
+  -webkit-scroll-behavior: smooth;
+  -moz-scroll-behavior: smooth;
   scroll-behavior: smooth;
 }
 
@@ -47,5 +49,13 @@ body {
 #home_top_section .home_inner {
   padding-top: 150px;
   padding-bottom: 150px;
+}
+
+#explore_main_section .fa {
+  background: black;
+  color: #fff;
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 5px;
 }
 /*# sourceMappingURL=style.css.map */
