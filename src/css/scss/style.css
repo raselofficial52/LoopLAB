@@ -1,5 +1,51 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #333;
+  color: #fff;
+}
+
 .navbar {
   border-bottom: 3px solid #1d7fff;
   background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99999999;
+}
+
+#home_top_section {
+  background: url("../../img/home.jpg");
+  background-position: 60% 102%;
+  background-size: cover;
+  min-height: 700px;
+  position: relative;
+  background-attachment: fixed;
+}
+
+#home_top_section .dark_overlay {
+  background: rgba(0, 0, 0, 0.5);
+  min-height: 700px;
+}
+
+#home_top_section .fa {
+  background: #fff;
+  color: #007BFF;
+  padding: 4px;
+  font-size: 30px;
+  border-radius: 5px;
+}
+
+#home_top_section .card_form {
+  background: rgba(0, 123, 255, 0.479);
+  border-radius: 5px;
+}
+
+#home_top_section .home_inner {
+  padding-top: 150px;
+  padding-bottom: 150px;
 }
 /*# sourceMappingURL=style.css.map */
