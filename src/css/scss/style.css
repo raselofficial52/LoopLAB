@@ -58,4 +58,12 @@ body {
   padding: 5px;
   border-radius: 5px;
 }
+
+#create_main_section .fa {
+  background-color: #fff;
+  font-size: 30px;
+  color: black;
+  padding: 5px;
+  border-radius: 5px;
+}
 /*# sourceMappingURL=style.css.map */

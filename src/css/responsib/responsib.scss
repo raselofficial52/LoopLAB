@@ -1,6 +1,4 @@
-@media(max-width:575px){
-   
-}
+
 @media(max-width:767px){
     .home_inner{
         h1{
@@ -10,6 +8,11 @@
      #explore_head_section {
          h2 {
              font-size: 3rem;
+         }
+     }
+     #create_head_section{
+         h2{
+             font-size:3rem;
          }
      }
 }
