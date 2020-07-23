@@ -11,6 +11,7 @@ html{
 body {
     background: $body_bg;
     color: $font_color;
+   
 }
 .navbar {
     border-bottom:3px solid #1d7fff;
@@ -82,4 +83,9 @@ body {
         padding:5px;
         border-radius:5px;
     }
+}
+
+#myModal{
+    z-index:999999999;
+   margin-top:10%;
 }

@@ -74,4 +74,9 @@ body {
   padding: 5px;
   border-radius: 5px;
 }
+
+#myModal {
+  z-index: 999999999;
+  margin-top: 10%;
+}
 /*# sourceMappingURL=style.css.map */
