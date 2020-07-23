@@ -66,4 +66,12 @@ body {
   padding: 5px;
   border-radius: 5px;
 }
+
+#share_main_section .fa {
+  background: #000;
+  color: #fff;
+  font-size: 30px;
+  padding: 5px;
+  border-radius: 5px;
+}
 /*# sourceMappingURL=style.css.map */
